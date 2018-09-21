@@ -1,4 +1,4 @@
-const body = document.querySelector('body');
+const body = document.getElementsByTagName('body')[0];
 
 var player1 = document.getElementById("player1");
 var player2 = document.getElementById("player2");
