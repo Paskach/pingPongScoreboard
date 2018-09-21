@@ -1,8 +1,6 @@
-const body = document.getElementsByTagName('body')[0];
-
 var player1 = document.getElementById("player1");
 var player2 = document.getElementById("player2");
-body.onkeydown = function(e) {
+document.onkeydown = function(e) {
   console.log(e.key);
   console.log(player1.style.color);
   if(player1.style.color != "rgb(255, 232, 0)" && player2.style.color != "rgb(255, 232, 0)"){
