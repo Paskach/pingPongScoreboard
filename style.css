@@ -1,5 +1,19 @@
 body {
   font-family: verdana;
   font-size: 120px;
-  background-color: white;
+  background-color: #00ff00;
+}
+
+div.score {
+  padding: 13px;
+  text-align: center;
+  width: 200px;
+  height: 150px;
+  background-color: #ff2020; 
+  border-radius: 32px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #ffe800;
+  color: #ffffff;
+  font-weight: bold;
 }
