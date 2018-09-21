@@ -1,5 +1,6 @@
 var player1 = document.getElementById("player1");
 var player2 = document.getElementById("player2");
+
 document.onkeydown = function(e) {
   console.log(e.key);
   console.log(player1.style.color);
