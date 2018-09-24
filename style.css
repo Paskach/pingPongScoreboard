@@ -1,6 +1,6 @@
 @font-face {
     font-family: "myFirstFont";
-    src: url("BAUHS93.woff") format('woff');
+    src: url("BAUHS93.TTF") format('ttf');
 }
 
 body {
@@ -12,13 +12,13 @@ body {
 div.score {
   padding: 13px;
   text-align: center;
+  vertical-align: middle;
   width: 200px;
-  height: 150px;
+  height: 170px;
   background-color: #ff2020; 
   border-radius: 32px;
-  border-width: 5px;
+  border-width: 12px;
   border-style: solid;
   border-color: #ffe800;
   color: #ffffff;
-  font-weight: bold;
 }
