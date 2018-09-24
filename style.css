@@ -1,6 +1,6 @@
 @font-face {
     font-family: "myFirstFont";
-    src: url("https://github.com/Paskach/pingpongscoreboard/blob/master/BAUHS93.woff") format('woff');
+    src: url("BAUHS93.woff") format('woff');
 }
 
 body {
