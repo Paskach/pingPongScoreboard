@@ -1,5 +1,10 @@
+@font-face {
+    font-family: "myFirstFont";
+    src: url("https://github.com/Paskach/pingpongscoreboard/blob/master/BAUHS93.woff") format('woff');
+}
+
 body {
-  font-family: verdana;
+  font-family: "myFirstFont";
   font-size: 120px;
   background-color: #00ff00;
 }
