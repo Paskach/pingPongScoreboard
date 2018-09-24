@@ -6,6 +6,8 @@ document.onkeydown = function(e) {
   if(player1.style.color != "rgb(255, 232, 0)" && player2.style.color != "rgb(255, 232, 0)"){
   	if(e.key == "1") player1.innerHTML = parseInt(player1.innerHTML, 10) + 1;
   	if(e.key == "2") player2.innerHTML = parseInt(player2.innerHTML, 10) + 1;
+  	if(e.key == "8") player1.innerHTML = parseInt(player1.innerHTML, 10) - 1;
+  	if(e.key == "9") player2.innerHTML = parseInt(player2.innerHTML, 10) - 1;
   }
   if(e.key == "0") {
   	player1.innerHTML = 0;
